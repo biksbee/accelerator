@@ -40,7 +40,7 @@ const Media = () => {
                             {
                                 Converter(media.cmi.length).map((item, index) => (
                                         <div className={`hover:opacity-60 duration-500 flex justify-center`} >
-                                            <a className='w-full h-full' href={media.cmi[item].link} target='_blank'><img src={media.cmi[item].icon} alt="" /></a>
+                                            <a className='w-max h-full' href={media.cmi[item].link} target='_blank'><img src={media.cmi[item].icon} alt="" /></a>
                                         </div>
                                 ))
                             }

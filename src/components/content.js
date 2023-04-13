@@ -123,7 +123,11 @@ export const media = {
             link: 'https://secretmag.ru/survival/boi-s-tenyu-pochemu-blokirovka-tor-v-rossii-ni-k-chemu-ne-privela.htm',
             icon: secr
         },
-        length: 18
+        18: {
+            link: 'https://www.wired.com/story/amnezia-vpn-russia-censorship/',
+            icon: wired
+        },
+        length: 19
     }
 }
 
